@@ -1,0 +1,54 @@
+body {
+    background-color: #dddddd;
+    margin: 10px;
+}
+
+#canvas {
+    display: inline-block;
+    background-color: white;
+}
+
+#display-health {
+    font-size: 50px;
+}
+
+#player-health {
+    display: inline;
+    color: red;
+}
+
+#player-health-lost {
+    display: inline;
+    color: black;
+}
+
+#time {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#guide {
+    font-size: 20px;
+}
+
+#note {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    width: 350px;
+    /* height: 490px; */
+    height: 2000px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#note-title {
+    left: 55px;
+    position: relative;
+}
+
+#note-main {
+    margin-left: 10px;
+    font-size: 15px;
+    width: 90%;
+}
